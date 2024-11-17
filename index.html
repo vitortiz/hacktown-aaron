@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+
+    <script type="text/javascript" src="js/dados.js"/></script>
+
+    <script type="text/javascript" src="js/sets.js"/></script>
+    <script type="text/javascript" src="js/rua.js"/></script>
+    <script type="text/javascript" src="js/rs.js"/></script>
+    <script type="text/javascript" src="js/paginas.js"/></script>
+
+    <script type="text/javascript" src="js/cidades.js"/></script>
+    <script type="text/javascript" src="js/leaflet.js"/></script>
+    <script type="text/javascript" src="js/chart.js"/></script>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/png" href="img/ico.png" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+
+    <title>EduMapa</title>
+
+  </head>
+  <body>
+    <nav class="cabecalho" >
+      <div class="menu-cima-logo">
+        <a href="javascript:pgindex()" >
+          <img src="img/edumapa.png" style="max-width: 250px;" alt="Logo do EduMapa meramente ilustrativo">
+     </a>
+      </div>
+      <div class="central" id="lk-menu">
+<a style="width: 92%; float: left; padding: 2%; margin: 2%; background: rgba(0,0,0,.3); border-radius: 8px; font-size: 1.5em; font-weight: bold; color: #ffffff;" href="javascript:mostra('div-lis','lk-lis')" id="lk-lis" >
+<svg  viewBox="0 0 100 100" style="width: 20px;" ><g id="g1" transform="matrix(3.7795276,0,0,3.7795276,439.86524,-687.64846)"><path id="rect1" style="fill:#ffffff;stroke-width:3.26501" d="m -116.38101,181.94032 v 5.80481 h 26.818001 v -5.80481 z m 0,10.45776 v 5.87095 h 26.818001 v -5.87095 z m 0,10.5239 v 5.83634 h 26.818001 v -5.83634 z" /></g></svg>
+Menu</a>
+</div>
+        <div class="menu-cima-menu-geral">
+          <ul id="div-lis" >
+            <li><a href="javascript:mudatema(`l`)" id="lk-tema" >dark</a></li>
+            <li><a href="javascript:pgsobre()" id="lk-tema" >Sobre</a></li>
+            <li><a href="javascript:pgindex()" id="lk-tema" >Home</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div class="central-l" id="div-conteudo" >
+      <noscript>
+        <h1>Ops!</h1>
+        <h2>Aparentemente seu JavaScript está desabilitado</h2>
+        <p>Este site foi construído para rodar com javascript. Hábilite em seu navegador para poder ver o conteúdo</p>
+      </noscript>
+    </div>
+
+
+
+    <footer class="rodape" >
+    <div class="container">
+      <div class="central" >
+
+        <p> <span size=".8"><a href="http://creativecommons.org/licenses/by-nc/3.0/br/">
+          <img src="img/cc.png" width="88" style="margin-bottom:14px"/></a>
+          <br />Conteúdo sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/br/" target="_blank">Creative Commons Atribuição-NãoComercial 3.0 Brasil</a>, salvo quando indicado.</span> </p>
+        <p> <span id="datarodape" style="text-width: bold; " ></span></p>
+
+     </a><br>Projeto desenvolvido para o <b>Hackathon Aaron Swartz Day 2024</b></p>
+      </div>
+    </div>
+  </footer>
+  <div style="width: 100%; position: fixed; bottom: 0;" id="div-lgpd" ></div>
+  <script/>
+  conf();
+  //  barralgpd();
+    escreveano(2024);
+    mudatema(`l`);
+  </script>
+  </body>
+</html>
