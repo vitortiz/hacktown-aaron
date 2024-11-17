@@ -14,7 +14,7 @@ Filtros e comparativos entre escolas por região, estado e município.
 Seção interativa de insights e tendências baseadas em dados.
 
 🚀 Tecnologias Utilizadas
-Para que esse projeto possa ser concluído, é necessário baixar a base de dados nesse link: https://discord.com/channels/1307343008647348335/1307343008647348338/1307787849516716042, pois o GitHub não aceitou o tamanho do arquivo.
+Para que esse projeto possa ser concluído, é necessário baixar a base de dados nesse link: https://drive.google.com/file/d/1F1EoSbHdh7OAbMkFBZeRwyrkvdumqipn/view, pois o GitHub não aceitou o tamanho do arquivo.
 Front-end: HTMl, CSS e Javascript
 Back-end: Javascript.
 Banco de Dados: [especificar banco de dados utilizado, ex: MongoDB ou PostgreSQL].
