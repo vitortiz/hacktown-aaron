@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+.central-d {
+  --bg-info: rgba(0,0,0,.3);
+}
+.central-l {
+  --bg-info: rgba(0,0,0,.1);
+}
+
+/*   POSTS    */
+
+.blog-div-categoria {
+  width: 30%;
+  float: left;
+  margin-top: -20px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.blog-div-info {
+  width: 100%;
+  float: left;
+  padding: 10px 0;
+  background: var(--bg-info);
+}
+
+.blog-div-img {
+  width: 100%;
+  float: left;
+  height: 300px;
+}
+
+.blog-div-post {
+  width: 96%;
+  float: left;
+  padding: 2%;
+  margin: 10px 0;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.blog-div-post-pc {
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    border-radius: 3px;
+    float: left;
+    background: var(--bg-info);
+    font-weight: bold;
+}
+
+.blog-autor-div-img {
+  width: 16%;
+  float: left;
+  padding: 0 2%;
+}
+.blog-autor-div-img-img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5).
+}
+
+.blog-autor-div-bio {
+  width: 72%;
+  float: left;
+  padding: 2%;
+  text-align: left;
+}
+
+.divulga-rs {
+  margin: 7px;
+}
+
+.blog-div-citacao {
+  width: calc(94% - 2px);
+  float: left;
+  margin: 10px 1%;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.5);
+  background: var(--bg-info);
+}
+
+/*       COMENTARIOS        */
+
+.blog-celula-comentario {
+	float: left;
+	margin: 10px 1%;
+	padding: 1%;
+	background: var(--bg-info);
+	border-radius: 8px;
+	overflow: hidden;
+  text-align: left;
+}
+
+.blog-celula-comentario-img {
+	width: 50px;
+	float: left;
+}
+.blog-celula-comentario-img-img {
+	width: 50px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+.blog-celula-comentario-dados {
+	width: calc(96% - 50px);
+	float: left;
+	padding: 0 1.5%;
+}
+.blog-celula-comentario-dados-data {
+	font-weight: bold;
+	color: var(--d-cor5);
+}
+
+.blog-div-interacoes {
+  width: 96%;
+  float: left;
+  padding: 2%;
+  background: var(--bg-info);
+  font-weight: bold;
+}
+
+.sp-reacoes {
+  background: rgba(0,0,0,.7);
+  padding: 7.5px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+/*     LISTAS     */
+
+.npg-atual {
+  margin: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,.8);
+  color: rgba(0,0,0,.8);
+  line-height: 1.5;
+}
+
+.npg-outro {
+  margin: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ff6600;
+  color: #ff6600;
+  line-height: 1.5;
+}
+
+.blog-div-filtro {
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: none;
+  line-height: 1.5;
+}
+
+
+
+
+
+/*     CEDULAS      */
+
+.blog-div-cedula {
+	width: calc(94% - 2px);
+	float: left;
+  padding: 2% 0;
+	margin: 3%;
+	border: 1px solid var(--font-cor2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+
+.blog-div-cedula-img {
+  width: 100%;
+  float: left;
+  height: 200px;
+}
+
+.blog-div-cedula-titulo {
+  width: 96%;
+  float: left;
+  padding: 2%;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--d-cor1);
+}
+
+.blog-div-cedula-categoria{
+  width: auto;
+  float: left;
+  padding: 2% 5%;
+  margin: -10px 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background: #000000;
+}
+
+.blog-div-cedula-autor {
+  width: 96%;
+  float: left;
+  padding: 2%;
+  margin-top: -15px;
+  text-align: right;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+}
+.blog-div-cedula-autor-img {
+  width: 25%;
+  float: left;
+}
+.blog-div-cedula-autor-img-foto {
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+.blog-div-cedula-autor-dados {
+  width: 67%;
+  float: left;
+  padding: 2% 4%;
+}
+.blog-div-cedula-autor-dados-nome {
+  font-weight: bold;
+  color: var(--d-cor2);
+}
+.blog-div-cedula-autor-dados-data {
+  font-weight: bold;
+  color: var(--d-cor5);
+}
+
+
+/*     AUTORES      */
+
+.div-autor-img{
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid var(--font-cor2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}

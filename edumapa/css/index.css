@@ -1,0 +1,83 @@
+/*     VARIAVEIS      */
+
+:root .central-d {
+  --bg-projeto-celula: rgb(0,0,0,.8);
+  --border-projeto-celula: rgb(0,0,0,0);
+}
+:root .central-l {
+  --bg-projeto-celula: rgb(0,0,0,.05);
+  --border-projeto-celula: rgb(0,0,0,.8);
+}
+
+/*        ACERVO       */
+
+.index-acervo-celula {
+  width: calc(94% - 2px);
+  float: left;
+  padding: 0;
+  margin: 3%;
+  border: 1px solid var(--font-cor2);
+  box-shadow: 1px 1px 2px rgba(0,0,0,.5);
+  color: var(--font-cor2);
+}
+
+.index-acervo-celula-img {
+  width: 100%;
+  float: left;
+  height: 150px;
+}
+
+.index-acervo-celula-titulo {
+  color: var(--font-cor1);
+}
+
+.index-acervo-celula-data {
+  color: var(--a-cor1);
+  font-weight: bold;
+  padding: 5px 10px;
+  float: left;
+}
+
+.index-acervo-celula-categoria {
+  padding: 5px 10px;
+  float: right;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/*        PROJETOS       */
+
+
+.index-projeto-celula {
+  width: calc(96% - 23px);
+  float: left;
+  padding: 10px;
+  margin: 2%;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-projeto-celula);
+  background: var(--bg-projeto-celula);
+  color: var(--font-cor2);
+}
+
+.index-projeto-celula-img {
+  width: 100%;
+  float: left;
+  border-radius: 8px 8px 0 0;
+}
+
+.index-projeto-celula-nome {
+  color: var(--font-cor1);
+}
+
+.index-projeto-celula-entidade {
+  font-weight: bold;
+}
+
+.index-projeto-celula-categoria {
+  padding: 5px 10px;
+  margin: 10px -11px;
+  border-radius: 5px 0 0 5px;
+  float: right;
+  color: #ffffff;
+  font-weight: bold;
+}
