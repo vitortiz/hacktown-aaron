@@ -18,7 +18,7 @@ Front-end: HTMl, CSS e Javascript
 Back-end: Javascript.
 Banco de Dados: [especificar banco de dados utilizado, ex: MongoDB ou PostgreSQL].
 Integrações: APIs governamentais para coleta de dados educacionais.
-Geolocalização: Qgis
+Geolocalização: Qgis - compreender o processo de utilização da ferramenta e geração dos dados, acesse aqui <https://drive.google.com/drive/folders/1YgapmlUPPQTOFj3y8laddIgwI8ySZTxS?usp=sharing>
 
 🤝 Como Contribuir
 Faça um fork do repositório.
